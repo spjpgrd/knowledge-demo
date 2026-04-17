@@ -8,7 +8,7 @@ Two zones: a **library** of universal reference material classified by Dewey Dec
 
 ## Getting Started
 
-1. Clone this repo
+1. Clone this repo (or download it as a .zip and copy it over `/knowledge` and `_templates` to your own Obsidian vault. 
 2. Open it as an Obsidian vault (or use any markdown editor)
 3. Review `knowledge/codes.md` for the Dewey classification system
 4. Drop content into `knowledge/inbox/` and classify it later
