@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian
+.obsidian/
+.trash/
+
+# Private content — keep structure, ignore personal files
+# Uncomment these lines if you want to track structure but not content:
+# knowledge/inbox/*.md
+# !knowledge/inbox/README.md
+# knowledge/ideas/*.md
+# !knowledge/ideas/README.md
