@@ -30,7 +30,7 @@ knowledge-demo/
 │   │   │   └── 658-general-management/
 │   │   │       └── example-first-90-days/
 │   │   │           └── example-first-90-days.md
-│   │   └── ... (000, 200, 300, 400, 500, 700, 800, 900)
+│   │   └── ...                  (add ranges as needed from codes.md)
 │   ├── work/                Project-specific docs (PRDs, research, runbooks)
 │   ├── inbox/               Workbench — dump anything here, classify later
 │   ├── ideas/               Half-formed concepts (staging area)
