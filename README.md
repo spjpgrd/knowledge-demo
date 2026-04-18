@@ -26,7 +26,8 @@ knowledge-demo/
 │   │   ├── 100-philosophy-and-psychology/
 │   │   │   └── 150-psychology/
 │   │   │       └── example-cognitive-biases/   ← each article is a folder
-│   │   │           └── example-cognitive-biases.md
+│   │   │           ├── example-cognitive-biases.md
+│   │   │           └── notes.md                ← companion file
 │   │   ├── 200-religion/
 │   │   ├── 300-social-sciences/
 │   │   ├── 400-language/
