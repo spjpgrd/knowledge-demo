@@ -12,9 +12,10 @@ Universal knowledge that outlives any single project. Organized by subject using
 - ALWAYS check `codes.md` before creating a new category directory
 - Range folders: `{hundred}-{lowercase-hyphenated-name}` (e.g., `100-philosophy-and-psychology/`)
 - Category folders: `{code}-{lowercase-hyphenated-name}` (e.g., `150-psychology/`)
+- Article folders: each article gets its own folder (`{slug}/{slug}.md`). Companion files (transcripts, PDFs) go in the same folder with generic names (`transcript.md`, `source.pdf`).
 - Categories nest under their range parent — to target a broad area, reference the range (e.g., "look at `100`")
 - Only create range folders when they have at least one child category
-- Start flat — only create subcategories when 6+ files in parent AND 3+ share a subcategory
+- Start flat — only create subcategories when 6+ article folders in parent AND 3+ share a subcategory
 - Never create empty directories
 - Every file gets YAML frontmatter: `title`, `dewey`, `source`, `tags`, `format`, `added`
 
@@ -41,6 +42,6 @@ Reference knowledge files from task metadata:
 
 ```yaml
 resource_refs:
-  - knowledge/library/100-philosophy-and-psychology/150-psychology/example-article.md
+  - knowledge/library/100-philosophy-and-psychology/150-psychology/example-article/example-article.md
   - knowledge/work/prds/2025/some-prd.md
 ```

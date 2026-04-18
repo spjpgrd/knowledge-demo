@@ -12,7 +12,8 @@ Two zones: a **library** of universal reference material classified by Dewey Dec
 2. Open it as an Obsidian vault (or use any markdown editor)
 3. Review `knowledge/codes.md` for the Dewey classification system
 4. Drop content into `knowledge/inbox/` and classify it later
-5. Use `_templates/library-article.md` when ingesting articles
+5. Use `_templates/library-article.md` when ingesting articles (each article gets its own folder)
+6. Use `_templates/library-companion.md` for companion files (transcripts, supplementary notes)
 
 ## Structure
 
@@ -21,16 +22,15 @@ knowledge-demo/
 ├── _templates/              Obsidian templates (article, etc.)
 ├── knowledge/
 │   ├── library/             Dewey-classified reference (frameworks, thinkers, theory)
-│   │   ├── 000-computer-science-and-information/
 │   │   ├── 100-philosophy-and-psychology/
-│   │   ├── 200-religion/
-│   │   ├── 300-social-sciences/
-│   │   ├── 400-language/
-│   │   ├── 500-science/
+│   │   │   └── 150-psychology/
+│   │   │       └── example-cognitive-biases/     ← each article is a folder
+│   │   │           └── example-cognitive-biases.md
 │   │   ├── 600-technology/
-│   │   ├── 700-arts-and-recreation/
-│   │   ├── 800-literature/
-│   │   └── 900-history-and-geography/
+│   │   │   └── 658-general-management/
+│   │   │       └── example-first-90-days/
+│   │   │           └── example-first-90-days.md
+│   │   └── ... (000, 200, 300, 400, 500, 700, 800, 900)
 │   ├── work/                Project-specific docs (PRDs, research, runbooks)
 │   ├── inbox/               Workbench — dump anything here, classify later
 │   ├── ideas/               Half-formed concepts (staging area)
@@ -49,6 +49,7 @@ Universal knowledge that outlives any single project. Articles, frameworks, thin
 
 - **Range folders** group by Dewey hundreds (e.g., `600-technology/`)
 - **Category folders** nest under ranges (e.g., `600-technology/658.8-marketing-management/`)
+- **Article folders** nest under categories — each article gets its own folder (`article-slug/article-slug.md`). Companion files (transcripts, PDFs, supplementary notes) go in the same folder with generic names (`transcript.md`, `source.pdf`).
 - You can target a broad area by number: "look at the `100` section" covers all philosophy and psychology
 
 ### Work

@@ -63,7 +63,7 @@ Show a table:
 ```
 | Item | Classification | Destination | Reasoning |
 |------|---------------|-------------|-----------|
-| munger-talk-notes.md | library | library/100-philosophy-and-psychology/153-mental-processes-and-intelligence/ | Decision-making framework notes |
+| munger-talk-notes.md | library | library/100-philosophy-and-psychology/153-mental-processes-and-intelligence/munger-talk-notes/ | Decision-making framework notes |
 | api-endpoints.md | work | work/runbooks/ | Project-specific how-to |
 | "check deployment" | backlog | BACKLOG.md | Action item, not knowledge |
 ```
@@ -73,14 +73,14 @@ Show a table:
 ### Step 5: Execute
 
 On approval:
-1. Move files to their destinations
+1. For library destinations, create an article folder (`kebab-case-title/`) and place the file inside as `kebab-case-title.md`
 2. Add frontmatter to library files that don't have it
 3. Clean processed files from `knowledge/inbox/`
 
 ### Step 6: Leafing check
 
 After moves, check each Dewey category in `library/`:
-- If a category has 6+ files AND 3+ share a subcategory → propose creating the subcategory
+- If a category has 6+ article folders AND 3+ share a subcategory → propose creating the subcategory
 - Reference `codes.md` for exact naming
 - Never create empty directories
 

@@ -1,3 +1,5 @@
+<!-- FILING: Create folder knowledge/library/{dewey}/{slug}/, place this file as {slug}.md inside it.
+     Companion files (transcripts, sources) go in the same folder with generic names. -->
 ---
 title: "[Article title]"
 author: "[Author name]"
