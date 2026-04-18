@@ -22,15 +22,22 @@ knowledge-demo/
 ├── _templates/              Obsidian templates (article, etc.)
 ├── knowledge/
 │   ├── library/             Dewey-classified reference (frameworks, thinkers, theory)
+│   │   ├── 000-computer-science-and-information/
 │   │   ├── 100-philosophy-and-psychology/
 │   │   │   └── 150-psychology/
-│   │   │       └── example-cognitive-biases/     ← each article is a folder
+│   │   │       └── example-cognitive-biases/   ← each article is a folder
 │   │   │           └── example-cognitive-biases.md
+│   │   ├── 200-religion/
+│   │   ├── 300-social-sciences/
+│   │   ├── 400-language/
+│   │   ├── 500-science/
 │   │   ├── 600-technology/
 │   │   │   └── 658-general-management/
 │   │   │       └── example-first-90-days/
 │   │   │           └── example-first-90-days.md
-│   │   └── ...                  (add ranges as needed from codes.md)
+│   │   ├── 700-arts-and-recreation/
+│   │   ├── 800-literature/
+│   │   └── 900-history-and-geography/
 │   ├── work/                Project-specific docs (PRDs, research, runbooks)
 │   ├── inbox/               Workbench — dump anything here, classify later
 │   ├── ideas/               Half-formed concepts (staging area)
