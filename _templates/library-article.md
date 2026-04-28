@@ -10,7 +10,6 @@ added: YYYY-MM-DD            # the date you ingested it
 dewey: "XXX - Category name" # from knowledge/codes.md, or blank if parked in inbox
 tags: [tag1, tag2]
 format: article
-status: unread               # unread | read | referenced
 summarized: true             # true when TL;DR / Key Concepts / Quotes are filled in; false for capture-only
 ---
 

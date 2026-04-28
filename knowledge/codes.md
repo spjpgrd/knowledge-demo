@@ -43,6 +43,7 @@ Authoritative reference for category names. ALWAYS consult this file before crea
 - 650 Management and auxiliary services
 - 658 General management
 - 658.4 Executive management
+- 658.5 Product management
 - 658.8 Marketing management
 
 ## 700 — Arts and Recreation

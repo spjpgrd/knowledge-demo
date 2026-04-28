@@ -14,6 +14,7 @@ Two zones: a **library** of universal reference material classified by Dewey Dec
 4. Drop content into `knowledge/inbox/` and classify it later
 5. Use `_templates/library-article.md` when ingesting articles (each article gets its own folder)
 6. Use `_templates/library-companion.md` for companion files (transcripts, supplementary notes)
+7. To automate ingestion with an AI assistant, see `examples/workflows/ingest-articles.md` and `examples/workflows/tidy-knowledge.md`
 
 ## Structure
 
@@ -71,6 +72,15 @@ Drop anything here — links, voice transcripts, screenshots, brain dumps. Class
 ### Ideas
 
 Half-formed concepts that aren't ready for the library or a task. Staging area for things that need more thought.
+
+## Workflows (optional)
+
+If you use Claude Code or another AI assistant that can read local files, two workflows are included:
+
+- **`examples/workflows/ingest-articles.md`** — turn one URL, a batch of URLs, or an index page into clean markdown filed under the right Dewey code. Triggered by phrases like *"Ingest this article: <url>"* or a `/ingest-articles` slash command. Also handles cross-linking — when a new article is ingested, existing library entries that link to that URL are rewritten to point at the local file instead.
+- **`examples/workflows/tidy-knowledge.md`** — process anything sitting in `knowledge/inbox/` and file it into `library/` or `work/` based on the Dewey codes in `knowledge/codes.md`.
+
+Both workflows are plain markdown — adapt or replace them to fit your assistant of choice.
 
 ## Customization
 
