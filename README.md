@@ -86,7 +86,7 @@ Both workflows are plain markdown — adapt or replace them to fit your assistan
 
 If you want to get real real, you can save articles straight from your browser. They land in a queue (`knowledge/inbox/`) for the ingest workflow to process whenever you're ready.
 
-The shortcut is **Save to Knowledge Library**. You configure two things in it:
+Install the [**Save to Knowledge Library**](https://www.icloud.com/shortcuts/8b2b712aecf642b6ada59815ba37101d) shortcut (macOS). You configure two things in it:
 
 - **Append Text to {folder}** — point this at your `knowledge/inbox/` folder
 - **File Path within the folder** — the filename to append URLs to (e.g., `queue.md`)
