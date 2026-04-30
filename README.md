@@ -8,7 +8,7 @@ Two zones: a **library** of universal reference material classified by Dewey Dec
 
 ## Getting Started
 
-1. Clone this repo (or [download it as a .zip](https://github.com/spjpgrd/knowledge-demo/archive/refs/heads/main.zip)) and copy over `/knowledge` and `_templates` into your own Obsidian vault. 
+1. Clone this repo (or [download it as a .zip](https://github.com/spjpgrd/knowledge-demo/archive/refs/heads/main.zip)) and copy over `/knowledge` and `_templates` into your own Obsidian vault.
 2. Open it as an Obsidian vault (or use any markdown editor)
 3. Review `knowledge/codes.md` for the Dewey classification system
 4. Drop content into `knowledge/inbox/` and classify it later
@@ -94,7 +94,7 @@ Install the [**Save to Knowledge Library**](https://www.icloud.com/shortcuts/8b2
 Then add this bookmarklet to your browser's bookmarks bar:
 
 ```
-javascript:void(window.open('shortcuts://run-shortcut?name=Save to Library&input=text&text=%27+encodeURIComponent(location.href)))
+javascript:void(window.open('shortcuts://run-shortcut?name=Save to Knowledge Library&input=text&text=%27+encodeURIComponent(location.href)))
 ```
 
 Click it on any page to drop the URL into the queue.
