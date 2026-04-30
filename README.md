@@ -42,6 +42,7 @@ knowledge-demo/
 │   │   └── 900-history-and-geography/
 │   ├── work/                Project-specific docs (PRDs, research, runbooks)
 │   ├── inbox/               Workbench — dump anything here, classify later
+│   │   └── queue.md         URLs saved from the browser shortcut (see below)
 │   ├── ideas/               Half-formed concepts (staging area)
 │   ├── voice-samples/       Writing voice reference material
 │   ├── archive/             Dead projects
