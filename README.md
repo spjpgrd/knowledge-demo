@@ -82,6 +82,25 @@ If you use Claude Code or another AI assistant that can read local files, two wo
 
 Both workflows are plain markdown — adapt or replace them to fit your assistant of choice.
 
+## Saving articles from your browser (optional)
+
+If you want to get real real, you can save articles straight from your browser. They land in a queue (`knowledge/inbox/`) for the ingest workflow to process whenever you're ready.
+
+The shortcut is **Save to Knowledge Library**. You configure two things in it:
+
+- **Append Text to {folder}** — point this at your `knowledge/inbox/` folder
+- **File Path within the folder** — the filename to append URLs to (e.g., `queue.md`)
+
+Then add this bookmarklet to your browser's bookmarks bar:
+
+```
+javascript:void(window.open('shortcuts://run-shortcut?name=Save to Library&input=text&text=%27+encodeURIComponent(location.href)))
+```
+
+Click it on any page to drop the URL into the queue.
+
+If you use Safari, you can skip the bookmarklet and use **Share > Shortcuts > Save to Knowledge Library** instead.
+
 ## Customization
 
 - Edit `knowledge/codes.md` to add Dewey subcategories relevant to your work
