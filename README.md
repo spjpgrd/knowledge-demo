@@ -1,3 +1,5 @@
+![Personal Knowledge System](assets/personal-knowledge-system.jpg)
+
 # Personal Knowledge System
 
 A structured personal knowledge base using a modified Dewey Decimal system. Designed for use with Obsidian and Claude Code (or any AI assistant that can read local files).
